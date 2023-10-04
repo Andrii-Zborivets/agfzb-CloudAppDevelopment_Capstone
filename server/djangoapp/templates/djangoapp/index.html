@@ -10,24 +10,34 @@
     <link href="https://unpkg.com/bootstrap-table@1.18.2/dist/bootstrap-table.min.css" rel="stylesheet">
     <script src="https://unpkg.com/bootstrap-table@1.18.2/dist/bootstrap-table.min.js"></script>
     <script src="https://unpkg.com/bootstrap-table@1.18.2/dist/extensions/filter-control/bootstrap-table-filter-control.min.js"></script>
-
+    <style>
+        body {
+          background: #f8f5ff;
+        }
+    
+        a1,td,th {
+          color: purple;
+          text-align: center;
+          padding: 150px;
+        }
+      </style>
 </head>
 
     <body>
    
      <nav class="navbar navbar-expand-lg bg-body-tertiary">
         <div class="container-fluid">
-          <a class="navbar-brand" href="#">Navbar</a>
+          <a class="navbar-brand" href="index.html">Home</a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav">
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="home/project/agfzb-CloudAppDevelopment_Capstone/server/djangoapp/templates/djangoapp/about.html">About Us</a>
+                <a class="nav-link active" aria-current="page" href="about.html">About Us</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="home/project/agfzb-CloudAppDevelopment_Capstone/server/djangoapp/templates/djangoapp/contact.html">Contact Us</a>
+                <a class="nav-link" href="contact.html">Contact Us</a>
               </li>
               
             </ul>
@@ -38,29 +48,30 @@
       <table class="table">
         <thead>
           <tr>
-            <th scope="col">#</th>
-            <th scope="col">First</th>
-            <th scope="col">Last</th>
-            <th scope="col">Handle</th>
+            <th scope="col">№</th>
+            <th scope="col">Сar brand</th>
+            <th scope="col">Model</th>
+            <th scope="col">Class</th>
           </tr>
         </thead>
         <tbody>
           <tr>
             <th scope="row">1</th>
-            <td>Mark</td>
-            <td>Otto</td>
-            <td>@mdo</td>
+            <td>Mercedes-Benz</td>
+            <td>S600</td>
+            <td>business class</td>
           </tr>
           <tr>
             <th scope="row">2</th>
-            <td>Jacob</td>
-            <td>Thornton</td>
-            <td>@fat</td>
+            <td>BMW</td>
+            <td>x7</td>
+            <td>crossovert</td>
           </tr>
           <tr>
             <th scope="row">3</th>
-            <td colspan="2">Larry the Bird</td>
-            <td>@twitter</td>
+            <td>Toyota</td>
+            <td>Prius</td>
+            <td>Econom</td>
           </tr>
         </tbody>
       </table>
